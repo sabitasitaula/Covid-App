@@ -1,0 +1,82 @@
+.card_inner{
+    background-color: blue;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.card_inner:hover{
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: black;
+}
+
+p,h1,h2{
+    color:white;
+    text-align: center;
+}
+
+.card_name{
+    font-size: 30px;
+}
+
+.card_name span{
+    font-size: 20px;
+}
+
+.card{
+    height: 100px;
+    width: 300px;
+    margin: 50px;
+}
+
+.card_total{
+    color: #FFE194;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 8px 10px 8px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 12px;
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;};
+}
+
+.country{
+    background-color: #0c7503;
+}
+
+.recovered{
+    background-color: #4e68fb71;
+}
+
+.confirmed{
+    background-color: #152D35;
+}
+
+.deaths{
+    background-color: #316B83;
+}
+
+.active{
+    background-color: #3F0071;
+}
+
+.updated{
+    background-color: #4b3505;
+}
